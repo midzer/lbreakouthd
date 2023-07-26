@@ -1,0 +1,21 @@
+polish editor:
+- don't save but check flag testLevel to not load from file
+- pass #resume to editor.run to avoid loading file
+- properly translate ids to chars to init test level
+- preview of levels
+- test level
+
+menu with key control
+menu for gamepad
+warp mouse for absolute position to keep inside playing field
+random set: build set from 10 random levels with randomly generated extras
+
+new extras
+- free paddle y movement
+- move level down 1
+- instant death
+- instant warp
+- smaller/bigger balls (?)
+- laser (clears entire row, limited number of shots)
+- net: bring back one lost ball
+

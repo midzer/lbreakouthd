@@ -1,0 +1,54 @@
+Use 64 bit toolchain x86_64-w64-mingw32
+
+In addition to cygwin base system install
+x86_64-SDL/image/mixer/ttf
+x86_64-gcc-core/debuginfo/g++
+x86_64-gettext
+automake
+make
+along with all dependencies
+
+if configure complains about intl/po stuff, run autoreconf
+gettext macro is not found although present with aclocal
+
+./configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --disable-install --disable-nls
+
+make
+
+ar in libgame fails, do it manually with right ar:
+cd libgame; x86_64-w64-mingw32-ar.exe cru libgame.a game.o levels.o shots.o bricks.o paddle.o extras.o balls.o mathfuncs.o list.o tools.o; cd ..
+
+copy the following dlls from /usr/x86_64-w64-mingw32/sys-root/mingw/bin to src:
+iconv.dll
+libbz2-1.dll
+libFLAC-8.dll
+libfluidsynth-1.dll
+libfreetype-6.dll
+libgcc_s_seh-1.dll
+libglib-2.0-0.dll
+libgsm-1.dll
+libintl-8.dll
+libjbig-2.dll
+libjpeg-8.dll
+liblzma-5.dll
+libmodplug-1.dll
+libmpg123-0.dll
+libncursesw6.dll
+libogg-0.dll
+libpcre-1.dll
+libpng16-16.dll
+libreadline7.dll
+libsndfile-1.dll
+libstdc++-6.dll
+libtiff-5.dll
+libvorbis-0.dll
+libvorbisenc-2.dll
+libvorbisfile-3.dll
+libwebp-7.dll
+libwinpthread-1.dll
+SDL2.dll
+SDL2_image.dll
+SDL2_mixer.dll
+SDL2_ttf.dll
+zlib1.dll (no direct requirement but libpng does not work without)
+
