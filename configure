@@ -4422,7 +4422,7 @@ if test $ac_test_CFLAGS; then
   CFLAGS=$ac_save_CFLAGS
 elif test $ac_cv_prog_cc_g = yes; then
   if test "$GCC" = yes; then
-    CFLAGS="-g -O2"
+    CFLAGS="-O3"
   else
     CFLAGS="-g"
   fi
@@ -8229,7 +8229,7 @@ if test $ac_test_CXXFLAGS; then
   CXXFLAGS=$ac_save_CXXFLAGS
 elif test $ac_cv_prog_cxx_g = yes; then
   if test "$GXX" = yes; then
-    CXXFLAGS="-g -O2"
+    CXXFLAGS="-O3"
   else
     CXXFLAGS="-g"
   fi
@@ -9043,7 +9043,7 @@ if test $ac_test_CFLAGS; then
   CFLAGS=$ac_save_CFLAGS
 elif test $ac_cv_prog_cc_g = yes; then
   if test "$GCC" = yes; then
-    CFLAGS="-g -O2"
+    CFLAGS="-O3"
   else
     CFLAGS="-g"
   fi
@@ -9538,12 +9538,12 @@ fi
 
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for main in -lSDL2" >&5
 printf %s "checking for main in -lSDL2... " >&6; }
-if test ${ac_cv_lib_SDL2_main+y}
+if test ${ac_cv_lib_SDL2_main+n}
 then :
   printf %s "(cached) " >&6
 else $as_nop
   ac_check_lib_save_LIBS=$LIBS
-LIBS="-lSDL2  $LIBS"
+LIBS="-sUSE_SDL=2  $LIBS"
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -9572,7 +9572,7 @@ if test "x$ac_cv_lib_SDL2_main" = xyes
 then :
   printf "%s\n" "#define HAVE_LIBSDL2 1" >>confdefs.h
 
-  LIBS="-lSDL2 $LIBS"
+  LIBS="-sUSE_SDL=2 $LIBS"
 
 else $as_nop
   as_fn_error $? "lib SDL2 is needed" "$LINENO" 5
@@ -9580,12 +9580,12 @@ fi
 
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for main in -lSDL2_ttf" >&5
 printf %s "checking for main in -lSDL2_ttf... " >&6; }
-if test ${ac_cv_lib_SDL2_ttf_main+y}
+if test ${ac_cv_lib_SDL2_ttf_main+n}
 then :
   printf %s "(cached) " >&6
 else $as_nop
   ac_check_lib_save_LIBS=$LIBS
-LIBS="-lSDL2_ttf  $LIBS"
+LIBS="-sUSE_SDL_TTF=2  $LIBS"
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -9614,7 +9614,7 @@ if test "x$ac_cv_lib_SDL2_ttf_main" = xyes
 then :
   printf "%s\n" "#define HAVE_LIBSDL2_TTF 1" >>confdefs.h
 
-  LIBS="-lSDL2_ttf $LIBS"
+  LIBS="-sUSE_SDL_TTF=2 $LIBS"
 
 else $as_nop
   as_fn_error $? "lib SDL2 ttf is needed" "$LINENO" 5
@@ -9622,12 +9622,12 @@ fi
 
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for main in -lSDL2_image" >&5
 printf %s "checking for main in -lSDL2_image... " >&6; }
-if test ${ac_cv_lib_SDL2_image_main+y}
+if test ${ac_cv_lib_SDL2_image_main+n}
 then :
   printf %s "(cached) " >&6
 else $as_nop
   ac_check_lib_save_LIBS=$LIBS
-LIBS="-lSDL2_image  $LIBS"
+LIBS="-sUSE_SDL_IMAGE=2  $LIBS"
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -9656,7 +9656,7 @@ if test "x$ac_cv_lib_SDL2_image_main" = xyes
 then :
   printf "%s\n" "#define HAVE_LIBSDL2_IMAGE 1" >>confdefs.h
 
-  LIBS="-lSDL2_image $LIBS"
+  LIBS="-sUSE_SDL_IMAGE=2 $LIBS"
 
 else $as_nop
   as_fn_error $? "lib SDL2 image is needed" "$LINENO" 5
@@ -9664,12 +9664,12 @@ fi
 
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for main in -lSDL2_mixer" >&5
 printf %s "checking for main in -lSDL2_mixer... " >&6; }
-if test ${ac_cv_lib_SDL2_mixer_main+y}
+if test ${ac_cv_lib_SDL2_mixer_main+n}
 then :
   printf %s "(cached) " >&6
 else $as_nop
   ac_check_lib_save_LIBS=$LIBS
-LIBS="-lSDL2_mixer  $LIBS"
+LIBS="-sUSE_SDL_MIXER=2  $LIBS"
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -9698,7 +9698,7 @@ if test "x$ac_cv_lib_SDL2_mixer_main" = xyes
 then :
   printf "%s\n" "#define HAVE_LIBSDL2_MIXER 1" >>confdefs.h
 
-  LIBS="-lSDL2_mixer $LIBS"
+  LIBS="-sUSE_SDL_MIXER=2 $LIBS"
 
 else $as_nop
   as_fn_error $? "lib SDL2 mixer is needed" "$LINENO" 5
@@ -10335,7 +10335,7 @@ then :
 fi
 
 
-configdir=.lbreakouthd
+configdir=.
 
 # Check whether --with-configdir was given.
 if test ${with_configdir+y}
@@ -10345,7 +10345,7 @@ fi
 
 
 # other flags
-datdir=$datadir/$PACKAGE
+datdir="."
 hiscoredir=$localstatedir
 debugflags=""
 # Check whether --enable-install was given.

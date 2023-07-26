@@ -77,7 +77,7 @@ View::View(Config &cfg, ClientGame &_cg)
 	shineX = -1;
 	shineY = -1;
 
-	init(themeNames[config.theme_id], MainWindow::getModeResolution(config.mode));
+	init(themeNames[config.theme_id], MainWindow::getModeResolution(2/*config.mode*/));
 }
 
 /** (Re)Initialize window, theme and menu.
@@ -136,8 +136,12 @@ void View::init(string t, uint r)
 		} else
 			_loginfo("Using fullscreen resolution %dx%d\n",mode.w,mode.h);
 	} else {
-		sh = r;
-		sw = sh * 16 / 9;
+		SDL_DisplayMode mode;
+		SDL_GetCurrentDisplayMode(cpdix,&mode);
+		sw = mode.w;
+		sh = mode.w/16*9;
+		//sh = r;
+		//sw = sh * 16 / 9;
 		_loginfo("Using window resolution %dx%d\n",sw,sh);
 	}
 
@@ -153,7 +157,7 @@ void View::init(string t, uint r)
 	/* (re)create main window */
 	if (mw)
 		delete mw;
-	mw = new MainWindow("LBreakoutHD", sw, sh, (r==0) );
+	mw = new MainWindow("LBreakoutHD", sw, sh, 0);
 
 	/* load theme (scaled if necessary) */
 	theme.load(t, sw, sh, brickScreenWidth, brickScreenHeight, config.antialiasing);
