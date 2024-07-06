@@ -1,0 +1,974 @@
+# Copyright (C) YEAR Michael Speck
+# This file is distributed under the same license as the lbreakouthd package.
+#
+# Olesya Gerasimenko <translation-team@basealt.ru>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: lbreakouthd 1.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-28 10:18+0200\n"
+"PO-Revision-Date: 2024-01-12 14:04+0300\n"
+"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"Language-Team: Basealt Translation Team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#: libgame/game.c:63 libgame/levels.c:123
+#, c-format
+msgid "Jumping Jack"
+msgstr "Прыгун"
+
+#: libgame/game.c:64 libgame/game.c:68 libgame/game.c:72 libgame/game.c:76
+#: libgame/game.c:80 libgame/game.c:84
+#, c-format
+msgid "Bonus Level"
+msgstr "Бонусный уровень"
+
+#: libgame/game.c:67 libgame/levels.c:126
+#, c-format
+msgid "Outbreak"
+msgstr "Вспышка"
+
+#: libgame/game.c:71 libgame/levels.c:129
+#, c-format
+msgid "Barrier"
+msgstr "Барьер"
+
+#: libgame/game.c:75 libgame/levels.c:132
+#, c-format
+msgid "Sitting Ducks"
+msgstr "Утки"
+
+#: libgame/game.c:79 libgame/levels.c:135
+#, c-format
+msgid "Hunter"
+msgstr "Охотник"
+
+#: libgame/game.c:83
+#, c-format
+msgid "Defender"
+msgstr "Защитник"
+
+#: libgame/game.c:87
+#, c-format
+msgid "Unknown Level Type"
+msgstr "Неизвестный тип уровня"
+
+#: libgame/levels.h:23
+msgid "<CREATE SET>"
+msgstr "<СОЗДАТЬ НАБОР>"
+
+#: libgame/levels.h:24
+msgid "!FREAKOUT!"
+msgstr "!ПАНИКА!"
+
+#: libgame/levels.c:138
+msgid "Invaders"
+msgstr "Захватчики"
+
+#: libgame/levels.c:141
+msgid "unknown"
+msgstr "неизвестный"
+
+#: libgame/levels.c:157 src/selectdlg.cpp:128
+msgid "!JUMPING_JACK!"
+msgstr "!ПРЫГУН!"
+
+#: libgame/levels.c:159 src/selectdlg.cpp:129
+msgid "!OUTBREAK!"
+msgstr "!ВСПЫШКА!"
+
+#: libgame/levels.c:161 src/selectdlg.cpp:130
+msgid "!BARRIER!"
+msgstr "!БАРЬЕР!"
+
+#: libgame/levels.c:163 src/selectdlg.cpp:131
+msgid "!SITTING_DUCKS!"
+msgstr "!УТКИ!"
+
+#: libgame/levels.c:165 src/selectdlg.cpp:132
+msgid "!HUNTER!"
+msgstr "!ОХОТНИК!"
+
+#: libgame/levels.c:167 src/selectdlg.cpp:133
+msgid "!INVADERS!"
+msgstr "!ЗАХВАТЧИКИ!"
+
+#: src/view.cpp:291
+msgid "Pause"
+msgstr "Пауза"
+
+#: src/view.cpp:300
+msgid "Restart level? y/n"
+msgstr "Перезапустить уровень? д/н"
+
+#: src/view.cpp:301
+msgid "(Costs a life.)"
+msgstr "(Расходует одну жизнь.)"
+
+#: src/view.cpp:317
+msgid "Quit Game? y/n"
+msgstr "Выйти из игры? д/н"
+
+#: src/view.cpp:318
+msgid "(No hiscore entry yet, game can be resumed later.)"
+msgstr "(Записи рекорда пока нет, игру можно продолжить позднее.)"
+
+#: src/view.cpp:426
+msgid "Buy Continue? y/n"
+msgstr "Купить продолжение? д/н"
+
+#: src/view.cpp:427
+msgid "(Costs ALL of your score.)"
+msgstr "(Расходует ВСЕ очки.)"
+
+#: src/view.cpp:722
+msgid "(Level "
+msgstr "(Уровень "
+
+#: src/view.cpp:735
+msgid "Active Extras"
+msgstr "Активные дополнения"
+
+#: src/view.cpp:753
+msgid "Hiscores"
+msgstr "Рекорды"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Kids"
+msgstr "Для детей"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Very Easy"
+msgstr "Очень низкая"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Easy"
+msgstr "Низкая"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Medium"
+msgstr "Средняя"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Hard"
+msgstr "Высокая"
+
+#: src/view.cpp:1146
+msgid "No Limit"
+msgstr "Без ограничения"
+
+#: src/view.cpp:1146
+msgid "200 FPS"
+msgstr "200 к/с"
+
+#: src/view.cpp:1146
+msgid "100 FPS"
+msgstr "100 к/с"
+
+#: src/view.cpp:1169
+msgid "Start Original Levels"
+msgstr "Запустить игру с оригинальными уровнями"
+
+#: src/view.cpp:1170
+msgid "Start level set 'LBreakoutHD'."
+msgstr "Запустить набор уровней «LBreakoutHD»."
+
+#: src/view.cpp:1172
+msgid "Start Custom Levels"
+msgstr "Запустить игру с пользовательскими уровнями"
+
+#: src/view.cpp:1173
+msgid "Select and run a custom level set."
+msgstr "Выбрать и запустить пользовательский набор уровней."
+
+#: src/view.cpp:1176
+msgid "Difficulty"
+msgstr "Сложность"
+
+#: src/view.cpp:1177
+msgid ""
+"This affects lives, paddle size and ball speed. For Kids and Easy score is "
+"reduced, for Hard a bonus is given."
+msgstr ""
+"Этот параметр влияет на количество жизней, размер ракетки и скорость мячей. "
+"На уровнях «Для детей» и «Низкая» даётся меньше очков, а на уровне «Высокая» "
+"предоставляется бонус."
+
+#: src/view.cpp:1180
+msgid "Players"
+msgstr "Игроки"
+
+#: src/view.cpp:1181
+msgid "Number and names of players. Players alternate whenever a life is lost."
+msgstr ""
+"Количество и имена игроков. Смена игрока выполняется при сгорании жизни."
+
+#: src/view.cpp:1183
+msgid "1st"
+msgstr "Первый"
+
+#: src/view.cpp:1184
+msgid "2nd"
+msgstr "Второй"
+
+#: src/view.cpp:1185
+msgid "3rd"
+msgstr "Третий"
+
+#: src/view.cpp:1186
+msgid "4th"
+msgstr "Четвёртый"
+
+#: src/view.cpp:1190
+msgid "Left"
+msgstr "Влево"
+
+#: src/view.cpp:1191
+msgid "Right"
+msgstr "Вправо"
+
+#: src/view.cpp:1192
+msgid "Left Fire"
+msgstr "Запуск влево"
+
+#: src/view.cpp:1193
+msgid ""
+"Fire balls to the left. Ignored if 'Ball Fire Angle' in 'Advanced Settings' "
+"is 'Random'."
+msgstr ""
+"Запускать мячи влево. Игнорируется, если для параметра «Угол запуска мячей» "
+"в разделе «Дополнительные параметры» выбрано значение «Случайный»."
+
+#: src/view.cpp:1195
+msgid "Right Fire"
+msgstr "Запуск вправо"
+
+#: src/view.cpp:1196
+msgid ""
+"Fire balls to the right. Ignored if 'Ball Fire Angle' in 'Advanced Settings' "
+"is 'Random'."
+msgstr ""
+"Запускать мячи вправо. Игнорируется, если для параметра «Угол запуска мячей» "
+"в разделе «Дополнительные параметры» выбрано значение «Случайный»."
+
+#: src/view.cpp:1198
+msgid "Paddle Turbo"
+msgstr "Турбо-ракетка"
+
+#: src/view.cpp:1199
+msgid "Speed up paddle movement."
+msgstr "Ускорить движение ракетки."
+
+#: src/view.cpp:1201 src/view.cpp:1272
+msgid "Ball Turbo"
+msgstr "Турбо-мяч"
+
+#: src/view.cpp:1202
+msgid "Speed up balls to limit 'Acc. Ball Speed' in 'Advanced Settings'."
+msgstr ""
+"Ускорить мячи до предела, установленного параметром «Скорость уск. мячей» в "
+"разделе «Дополнительные параметры»."
+
+#: src/view.cpp:1204
+msgid "Idle Return"
+msgstr "Возврат неактивных"
+
+#: src/view.cpp:1205
+msgid ""
+"Return all idle balls (no effective brick hits for some time) to the paddle."
+msgstr ""
+"Возвращать все неактивные мячи (без эффективных ударов по кирпичам в течение "
+"некоторого времени) на ракетку."
+
+#: src/view.cpp:1208
+msgid "Key Speed"
+msgstr "Скорость с клавишами"
+
+#: src/view.cpp:1209
+msgid "The higher the value the faster the paddle moves by keys."
+msgstr ""
+"Чем выше это значение, тем быстрее ракетка перемещается с помощью клавиш."
+
+#: src/view.cpp:1211
+msgid "Mouse Input"
+msgstr "Ввод с помощью мыши"
+
+#: src/view.cpp:1212
+msgid ""
+"'Absolute' uses absolute mouse position. No fine tuning possible and you "
+"might experience delay (if moving too far to the right you'll need to come "
+"back to the paddle position first) but it will be more accurate for slow "
+"movements.\n"
+"'Relative' allows modifying paddle speed but might get inaccurate for slow "
+"movements with high resolution and high frame rates."
+msgstr ""
+"При выборе варианта «Абсолютный» используется абсолютное положение мыши. При "
+"этом невозможна тонкая настройка и могут возникать задержки (при перемещении "
+"слишком далеко вправо потребуется сначала вернуться туда, где находится "
+"ракетка), но при медленном перемещении обеспечивается более высокая "
+"точность.\n"
+"Вариант «Относительный» позволяет изменять скорость ракетки, но при "
+"медленном перемещении с высоким разрешением и высокой частотой кадров может "
+"пострадать точность."
+
+#: src/view.cpp:1213
+msgid "Absolute"
+msgstr "Абсолютный"
+
+#: src/view.cpp:1213
+msgid "Relative"
+msgstr "Относительный"
+
+#: src/view.cpp:1214
+msgid "Motion Modifier"
+msgstr "Модификатор движения"
+
+#: src/view.cpp:1215
+msgid "Adjust mouse sensitivity. (relative motion only)"
+msgstr "Настройка чувствительности мыши. (Только для относительного движения)"
+
+#: src/view.cpp:1217
+msgid "Invert Motion"
+msgstr "Инверсия движения"
+
+#: src/view.cpp:1218
+msgid "Invert mouse motion if needed. (relative motion only)"
+msgstr ""
+"Инверсия движения мыши при необходимости. (Только для относительного "
+"движения)"
+
+#: src/view.cpp:1223
+msgid "Theme"
+msgstr "Тема"
+
+#: src/view.cpp:1224
+msgid "Select theme. (not applied yet)"
+msgstr "Выбор темы. (Ещё не применяется)"
+
+#: src/view.cpp:1226
+msgid "Mode"
+msgstr "Режим"
+
+#: src/view.cpp:1227
+msgid "Select mode. (not applied yet)"
+msgstr "Выбор режима. (Ещё не применяется)"
+
+#: src/view.cpp:1229
+msgid "Antialiasing"
+msgstr "Сглаживание"
+
+#: src/view.cpp:1230
+msgid ""
+"'Auto' means no antialiasing for old LBreakout2 low resolution themes as "
+"this might cause (slight) graphical errors. 'Always' means to use it even "
+"for low resolution themes."
+msgstr ""
+"При выборе варианта «Автоматически» сглаживание не будет использоваться для "
+"старых тем LBreakout2 с низким разрешением, так как оно может привести к "
+"возникновению (небольших) ошибок графики. При выборе варианта «Всегда» "
+"сглаживание будет использоваться даже для тем с низким разрешением."
+
+#: src/view.cpp:1231 src/view.cpp:1274 src/view.cpp:1277
+msgid "Auto"
+msgstr "Автоматически"
+
+#: src/view.cpp:1231
+msgid "Always"
+msgstr "Всегда"
+
+#: src/view.cpp:1232
+msgid "Apply Theme&Mode"
+msgstr "Применить тему и режим"
+
+#: src/view.cpp:1233
+msgid "Apply the above settings."
+msgstr "Применить вышеприведённые параметры."
+
+#: src/view.cpp:1235
+msgid "Frame Limit"
+msgstr "Максимум кадров"
+
+#: src/view.cpp:1236
+msgid ""
+"Maximum number of frames per second.\n"
+"Be careful: The higher the limit the more insensitive your mouse might "
+"become to slow movements (because relative motion is used and program cycles "
+"are shorter).\n"
+"200 FPS should be a good value."
+msgstr ""
+"Максимальное количество кадров в секунду.\n"
+"Внимание: чем выше порог, тем меньше чувствительность мыши к медленному "
+"перемещению (так как используется относительное движение и циклы программы "
+"короче).\n"
+"Оптимальным, скорее всего, будет значение 200 к/с."
+
+#: src/view.cpp:1241
+msgid "Sound"
+msgstr "Звук"
+
+#: src/view.cpp:1242
+msgid "Volume"
+msgstr "Громкость"
+
+#: src/view.cpp:1243
+msgid "Speech"
+msgstr "Речь"
+
+#: src/view.cpp:1245
+msgid "Buffer Size"
+msgstr "Размер буфера"
+
+#: src/view.cpp:1246
+msgid ""
+"Reduce buffer size if you experience sound delays. Might have more CPU "
+"impact though. (not applied yet)"
+msgstr ""
+"Можно уменьшить размер буфера, если звук запаздывает. Учтите, что это может "
+"увеличить нагрузку на процессор. (Ещё не применяется)"
+
+#: src/view.cpp:1248
+msgid "Channels"
+msgstr "Каналы"
+
+#: src/view.cpp:1249
+msgid ""
+"More channels gives more sound variety, less channels less (not applied yet)"
+msgstr "Чем больше каналов, тем богаче звук, и наоборот. (Ещё не применяется)"
+
+#: src/view.cpp:1251
+msgid "Apply Size&Channels"
+msgstr "Применить параметры размера и каналов"
+
+#: src/view.cpp:1252
+msgid "Apply above settings"
+msgstr "Применить вышеприведённые параметры."
+
+#: src/view.cpp:1256
+msgid "Controls"
+msgstr "Управление"
+
+#: src/view.cpp:1257
+msgid "Graphics"
+msgstr "Графика"
+
+#: src/view.cpp:1258
+msgid "Audio"
+msgstr "Звук"
+
+#: src/view.cpp:1259
+msgid "Advanced"
+msgstr "Дополнительные параметры"
+
+#: src/view.cpp:1263
+msgid "Paddle Style"
+msgstr "Стиль ракетки"
+
+#: src/view.cpp:1264
+msgid ""
+"Use 'Convex' for casual play: The paddle is treated as convex allowing easy "
+"aiming.\n"
+"Use 'Normal' for regular behaviour. You will have to aim by using the side "
+"hemispheres or giving balls momentum by moving at the right moment when they "
+"hit the flat part. Only for experienced players."
+msgstr ""
+"Как правило, рекомендуется выбрать вариант «Выпуклая»: ракетка будет "
+"считаться выпуклой, что облегчает прицеливание.\n"
+"Если же выбрать вариант «Обычная», нужно будет прицеливаться с помощью "
+"боковых полусфер или придавать мячам импульс, в нужный момент перемещая "
+"ракетку при их соприкосновении с плоской частью. Только для опытных игроков."
+
+#: src/view.cpp:1265
+msgid "Normal"
+msgstr "Обычная"
+
+#: src/view.cpp:1265
+msgid "Convex"
+msgstr "Выпуклая"
+
+#: src/view.cpp:1266
+msgid "Ball Layer"
+msgstr "Слой мячей"
+
+#: src/view.cpp:1267
+msgid ""
+"'Below Extras' is the normal layer. It might get hard with many extras and "
+"effects though, so change to 'Above Extras' to have balls always on top of "
+"everything (looks weird but helps to keep an eye on them)."
+msgstr ""
+"«Под дополнениями» — обычный слой. Но может стать сложно играть, когда на "
+"экране много дополнений и эффектов; тогда лучше выбрать вариант «Над "
+"дополнениями», чтобы мячи всегда были над всем остальным (это выглядит "
+"странно, но помогает не упустить их из виду)."
+
+#: src/view.cpp:1268
+msgid "Below Extras"
+msgstr "Под дополнениями"
+
+#: src/view.cpp:1268
+msgid "Above Extras"
+msgstr "Над дополнениями"
+
+#: src/view.cpp:1269
+msgid "Ball Fire Angle"
+msgstr "Угол запуска мячей"
+
+#: src/view.cpp:1270
+msgid ""
+"Either 50 degrees to the left/right or random no matter what fire key has "
+"been pressed."
+msgstr ""
+"Либо 50 градусов влево или вправо, либо случайный (независимо от того, какая "
+"клавиша запуска была нажата)."
+
+#: src/view.cpp:1271 src/view.cpp:1864
+msgid "Random"
+msgstr "Случайный"
+
+#: src/view.cpp:1273
+msgid ""
+"'Auto' will automatically speed up your balls (the farther away from the "
+"paddle the more).\n"
+"'Manually' puts them to maximum speed while key is pressed (default key is "
+"c)."
+msgstr ""
+"Если выбран вариант «Автоматически», мячи будут ускоряться автоматически "
+"(чем дальше от ракетки, тем сильнее).\n"
+"Если выбран вариант «Вручную», скорость мячей станет максимальной при "
+"нажатии клавиши (по умолчанию это «c»)."
+
+#: src/view.cpp:1274 src/view.cpp:1277
+msgid "Manually"
+msgstr "Вручную"
+
+#: src/view.cpp:1275
+msgid "Return Balls"
+msgstr "Возврат мячей"
+
+#: src/view.cpp:1276
+msgid ""
+"'Auto' returns all idle balls (no effective brick hits) after 10 seconds to "
+"the paddle.\n"
+"'Manually' requires you to press a key (default key is Backspace).\n"
+"'Auto' is more convenient but 'Manually' might be required for (badly "
+"designed) levels where balls need to bounce around a lot."
+msgstr ""
+"Если выбран вариант «Автоматически», все неактивные мячи (без эффективных "
+"ударов по кирпичам) будут возвращены на ракетку через 10 секунд.\n"
+"Если выбран вариант «Вручную», потребуется нажать клавишу (по умолчанию "
+"используется пробел).\n"
+"Режим «Автоматически» более удобен, но для (неудачно сконструированных) "
+"уровней, на которых мячам надо много перемещаться, может потребоваться режим "
+"«Вручную»."
+
+#: src/view.cpp:1278
+msgid "Warp Limit"
+msgstr "Порог для перехода"
+
+#: src/view.cpp:1279
+msgid ""
+"If this percentage of bricks is destroyed you can warp to the next level (no "
+"penalties) by pressing 'w'. A small icon at the lower right hand side is "
+"shown when warp is ready."
+msgstr ""
+"Если этот процент кирпичей разрушен, можно перейти на следующий уровень (без "
+"штрафов) с помощью клавиши «w». Когда появляется возможность перехода, в "
+"нижней правой части экрана отображается небольшой значок."
+
+#: src/view.cpp:1281
+msgid "Acc. Ball Speed"
+msgstr "Скорость уск. мячей"
+
+#: src/view.cpp:1282
+msgid "Maximum speed of accelerated balls."
+msgstr "Максимальная скорость ускоренных мячей."
+
+#: src/view.cpp:1284
+msgid "Bonus Levels"
+msgstr "Бонусные уровни"
+
+#: src/view.cpp:1284
+msgid ""
+"Add bonus levels with a mini game every 4 regular levels. Game over will end "
+"the mini game without loosing a life."
+msgstr ""
+"Добавлять бонусные уровни с мини-игрой после каждых 4 обычных уровней. Если "
+"проиграть в мини-игре, она завершится, но жизнь не будет потрачена."
+
+#: src/view.cpp:1285
+msgid "BCC Type"
+msgstr ""
+
+#: src/view.cpp:1286
+msgid ""
+"Ball Collision Check: Get ball targets either by trajectory or clipping."
+msgstr ""
+
+#: src/view.cpp:1287
+msgid "Trajectory"
+msgstr ""
+
+#: src/view.cpp:1287
+msgid "Clipping"
+msgstr ""
+
+#: src/view.cpp:1291
+msgid "Create New Set"
+msgstr "Создать новый набор"
+
+#: src/view.cpp:1293
+msgid "Edit Existing Set"
+msgstr "Изменить существующий набор"
+
+#: src/view.cpp:1294
+msgid "Edit an existing levelset."
+msgstr "Отредактировать существующий набор уровней."
+
+#: src/view.cpp:1299
+msgid "New Game"
+msgstr "Новая игра"
+
+#: src/view.cpp:1300
+msgid "Resume Game"
+msgstr "Продолжить игру"
+
+#: src/view.cpp:1304
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/view.cpp:1305 src/view.cpp:1823
+msgid "Help"
+msgstr "Справка"
+
+#: src/view.cpp:1307
+msgid "Editor"
+msgstr "Редактор"
+
+#: src/view.cpp:1309
+msgid "Quit"
+msgstr "Выход"
+
+#: src/view.cpp:1751
+msgid "No saved game."
+msgstr "Нет сохранённой игры."
+
+#: src/view.cpp:1768
+msgid " player(s)\n"
+msgstr " игр.\n"
+
+#: src/view.cpp:1779
+msgid "  (Lvl: "
+msgstr "  (ур.: "
+
+#: src/view.cpp:1798
+msgid ""
+"You can control your paddle either with the mouse or keyboard. Destroying "
+"bricks will release extras sometimes. Some are good, some are bad and some "
+"may be good or bad. Some of the bricks take more than one shot, regenerate "
+"over time, explode or grow new bricks (see README for more details). Balls "
+"will get faster (until life is lost) and the difficulty setting will "
+"influence number of lives, ball speed, paddle size and score.\n"
+"\n"
+"While playing you can press\n"
+"  - ESC to leave the game (you'll have to confirm)\n"
+"  - w to warp to next level (if enough bricks were destroyed)\n"
+"  - p to pause/unpause the game\n"
+"  - d to destroy a brick (workaround for bad level design)\n"
+"\n"
+"If you leave a game, you can resume it later (no hiscores entry yet).\n"
+"\n"
+"If you lose all lives, you can buy a continue (score set to 0, initial "
+"number of lives restored). If you don't buy a continue, the game is over "
+"(hiscores entry is checked) and can no longer be resumed. \n"
+"\n"
+"Enjoy the game!\n"
+"          Michael Speck"
+msgstr ""
+"Можно управлять ракеткой либо с помощью мыши, либо с помощью клавиатуры. При "
+"разрушении кирпичей иногда появляются дополнения. Некоторые являются "
+"позитивными, некоторые — негативными, а также есть те, эффект которых "
+"зависит от ситуации. Некоторые кирпичи разрушаются не с одного удара, "
+"регенерируют через определённое время, взрываются или производят новые "
+"кирпичи (подробнее об этом в файле README). Скорость мячей растёт (пока не "
+"будет потрачена жизнь), а параметр сложности влияет на количество жизней, "
+"скорость мячей, размер ракетки и очки.\n"
+"\n"
+"Во время игры можно нажимать следующие клавиши:\n"
+"  - ESC для выхода из игры (потребуется подтверждение)\n"
+"  - w для перехода на следующий уровень (если разрушено достаточно "
+"кирпичей)\n"
+"  - p для приостановки/возобновления игры\n"
+"  - d для разрушения кирпича (полезно при неудачном дизайне уровней)\n"
+"\n"
+"Если выйти из игры, можно будет продолжить её позже (записи рекорда ещё "
+"нет).\n"
+"\n"
+"Когда потрачены все жизни, можно купить продолжение (очки станут равными "
+"нулю, будет восстановлено исходное количество жизней). Если не покупать "
+"продолжение, то игра закончится (будет внесена запись рекорда) и продолжить "
+"её будет нельзя. \n"
+"\n"
+"Играйте с удовольствием!\n"
+"          Michael Speck"
+
+#: src/view.cpp:1831
+msgid "Extra Score"
+msgstr "Дополнительные очки"
+
+#: src/view.cpp:1832
+msgid "Gold Shower"
+msgstr "Золотой дождь"
+
+#: src/view.cpp:1834
+msgid "Extra Life"
+msgstr "Дополнительная жизнь"
+
+#: src/view.cpp:1835
+msgid "Extra Ball"
+msgstr "Дополнительный мяч"
+
+#: src/view.cpp:1837
+msgid "Expand Paddle"
+msgstr "Увеличение ракетки"
+
+#: src/view.cpp:1838
+msgid "Shrink Paddle"
+msgstr "Уменьшение ракетки"
+
+#: src/view.cpp:1840
+msgid "Sticky Paddle"
+msgstr "Липкая ракетка"
+
+#: src/view.cpp:1841
+msgid "Plasma Weapon"
+msgstr "Плазменное оружие"
+
+#: src/view.cpp:1843
+msgid "Slow Balls"
+msgstr "Медленные мячи"
+
+#: src/view.cpp:1844
+msgid "Fast Balls"
+msgstr "Быстрые мячи"
+
+#: src/view.cpp:1846
+msgid "Energy Balls"
+msgstr "Энергетические мячи"
+
+#: src/view.cpp:1847
+msgid "Explosive Balls"
+msgstr "Взрывные мячи"
+
+#: src/view.cpp:1849
+msgid "Extra Floor"
+msgstr "Дополнительный этаж"
+
+#: src/view.cpp:1850
+msgid "Joker (collect goodies)"
+msgstr "Джокер (собрать призы)"
+
+#: src/view.cpp:1852
+msgid "Bonus Magnet"
+msgstr "Магнит бонусов"
+
+#: src/view.cpp:1853
+msgid "Malus Magnet"
+msgstr "Магнит штрафов"
+
+#: src/view.cpp:1855
+msgid "Chaotic Balls"
+msgstr "Хаотичные мячи"
+
+#: src/view.cpp:1856
+msgid "Weak Balls"
+msgstr "Слабые мячи"
+
+#: src/view.cpp:1858
+msgid "Frozen Paddle"
+msgstr "Замороженная ракетка"
+
+#: src/view.cpp:1859
+msgid "Ghost Paddle"
+msgstr "Призрачная ракетка"
+
+#: src/view.cpp:1861
+msgid "Extra Time"
+msgstr "Дополнительное время"
+
+#: src/view.cpp:1862
+msgid "Reset"
+msgstr "Сброс"
+
+#: src/view.cpp:1865
+msgid "Darkness"
+msgstr "Темнота"
+
+#: src/view.cpp:1867
+msgid "Indestructible"
+msgstr "Неразрушимость"
+
+#: src/view.cpp:1868
+msgid "Regular Wall"
+msgstr "Обычная стена"
+
+#: src/view.cpp:1870
+msgid "Chaotic Wall"
+msgstr "Хаотичная стена"
+
+#: src/view.cpp:1871
+msgid "Regular Brick"
+msgstr "Обычный кирпич"
+
+#: src/view.cpp:1873
+msgid "Multi-hit Brick"
+msgstr "Многоударный кирпич"
+
+#: src/view.cpp:1874
+msgid "Regenerative Brick"
+msgstr "Регенеративный кирпич"
+
+#: src/view.cpp:1876
+msgid "Explosive Brick"
+msgstr "Взрывной кирпич"
+
+#: src/view.cpp:1877
+msgid "Growing Brick"
+msgstr "Растущий кирпич"
+
+#: src/view.cpp:1897
+msgid "Plane of Inner Stability"
+msgstr "Плоскость внутренней стабильности"
+
+#: src/view.cpp:1902
+#, no-c-format
+msgid "Left-click on any brick to destroy it (costs 10% score)."
+msgstr ""
+"Чтобы разрушить кирпич, щёлкните по нему левой кнопкой мыши (расход очков: "
+"10% score)."
+
+#: src/view.cpp:1905
+msgid "Press any key to cancel selection."
+msgstr "Нажмите любую клавишу, чтобы отменить выбор."
+
+#: src/clientgame.cpp:107
+msgid "Testplayer"
+msgstr "Тестовый игрок"
+
+#: src/clientgame.cpp:284 src/clientgame.cpp:293
+#, c-format
+msgid "Game over, %s!"
+msgstr "Игра окончена, %s!"
+
+#: src/clientgame.cpp:286
+#, c-format
+msgid "Congratulations, %s, you cleared all levels!"
+msgstr "Поздравляем! %s, вам удалось расчистить все уровни!"
+
+#: src/clientgame.cpp:387
+#, c-format
+msgid "Level: %d, Size: %d/12"
+msgstr "Уровень: %d, размер: %d/12"
+
+#: src/clientgame.cpp:391
+#, fuzzy, c-format
+#| msgid "Total Hits: %d, Current Price: %d"
+msgid "Total Hits: %d, Current Prize: %d"
+msgstr "Всего попаданий: %d, текущая стоимость: %d"
+
+#: src/clientgame.cpp:395
+#, fuzzy, c-format
+#| msgid "Wave: %d, Infections: %d/%d, Active: %d/%d"
+msgid "Wave: %d, Invaders: %d/%d (Active: %d)"
+msgstr "Волна: %d, инфекции: %d/%d, активные: %d/%d"
+
+#: src/clientgame.cpp:401
+#, c-format
+msgid "Wave: %d, Infections: %d/%d, Active: %d/%d"
+msgstr "Волна: %d, инфекции: %d/%d, активные: %d/%d"
+
+#: src/clientgame.cpp:407 src/clientgame.cpp:411
+#, fuzzy, c-format
+#| msgid "Hits: %d, Current Price: %d, Time: %d secs"
+msgid "Hits: %d, Current Prize: %d, Time: %d secs"
+msgstr "Попадания: %d, текущая стоимость: %d, время: %d сек."
+
+#: src/selectdlg.cpp:55
+msgid "Superset with ALL levels"
+msgstr "Супернабор со ВСЕМИ уровнями"
+
+#: src/selectdlg.cpp:57
+msgid "Mini Game"
+msgstr "Мини-игра"
+
+#: src/selectdlg.cpp:193
+msgid "Select Levelset (press ESC to exit)"
+msgstr "Выберите набор уровней (для выхода нажмите ESC)"
+
+#: src/selectdlg.cpp:202
+msgid "<Previous Page>"
+msgstr "<Предыдущая страница>"
+
+#: src/selectdlg.cpp:217
+msgid "<Next Page>"
+msgstr "<Следующая страница>"
+
+#: src/selectdlg.cpp:223
+msgid " by "
+msgstr " от автора "
+
+#: src/selectdlg.cpp:227
+msgid " levels)"
+msgstr " ур.)"
+
+#: src/sdl.h:46
+msgid "Fullscreen"
+msgstr "Во весь экран"
+
+#: src/sdl.h:47
+msgid "853x480 Window"
+msgstr "Окно 853x480"
+
+#: src/sdl.h:49
+msgid "1280x720 Window"
+msgstr "Окно 1280x720"
+
+#: src/sdl.h:51
+msgid "1366x768 Window"
+msgstr "Окно 1366x768"
+
+#: src/sdl.h:53
+msgid "1920x1080 Window"
+msgstr "Окно 1920x1080"
+
+#: src/sdl.cpp:827
+msgid "y"
+msgstr "д"
+
+#: src/sdl.cpp:830
+msgid "n"
+msgstr "н"
+
+#: src/menu.h:172
+msgid "Back"
+msgstr "Назад"
+
+#: src/menu.h:288
+msgid "Off"
+msgstr "Откл."
+
+#: src/menu.h:288
+msgid "On"
+msgstr "Вкл."
+
+#: src/menu.h:336
+msgid "Enter Name"
+msgstr "Введите имя"
+
+#, c-format
+#~ msgid "Wave: %d, Invaders: %d/%d"
+#~ msgstr "Волна: %d, захватчики: %d/%d"

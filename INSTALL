@@ -1,0 +1,17 @@
+When checked out from SVN:
+
+to build current m4 directory: 
+	gettextize -f
+to build aclocal.m4: 
+	aclocal -I m4
+to build standard config.h.in: 
+	autoheader
+to generate configure file: 
+	autoconf
+to generate Makefile.in from Makefile.am:
+	automake
+
+After that (or for distributed source package):
+	./configure
+	make
+	make install

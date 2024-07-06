@@ -1,0 +1,131 @@
+- install icon according to specification (again) (2024/04/20 MS)
+
+1.1.8:
+- added simplified ball get target algorithm (2024/04/21 MS)
+- properly install icon (2024/04/20 MS)
+- fixed another bug in ball reflection (2024/04/14 MS)
+- properly read windows files in preview and editor (2024/04/14 MS)
+
+1.1.7:
+- added new levelset JustGoForIt by unknown (2024/04/06 MS)
+- workaround: return ball to paddle for illegal targets (2024/04/06 MS)
+- fixed mini game Invaders (2024/04/05 MS)
+- workaround: reset ball if in brick before getting target (2024/04/05 MS)
+- show trajectory of balls with debugging enabled (2024/04/05 MS)
+- reenabled bug report as configureable option (2024/04/05 MS)
+- properly handle \r for levelsets made in windows (2024/04/04 MS)
+- added xgettext comment to prevent wrong c-format (2024/02/14 Jorge)
+
+1.1.6:
+- unpause only with key p to allow switching windows (2024/01/13 MS)
+- allow windowed mode if resolution has at least its height (2024/01/13 MS)
+- added russian translation (2024/01/13 Olesya Gerasimenko)
+- workaround for possible flickering when setting fullscreen (2024/01/13 Alex)
+- non-blocking wait for key/confirm to workaround SDL bug (2024/01/03 MS)
+- fixed more typos (2023/12/10 Jorge)
+
+1.1.5:
+- added gettext support for yes/no keys (2023/11/25 MS)
+- added spanish translation (2023/11/18 Jorge)
+- fixed comma typos (2023/11/18 Jorge)
+
+1.1.4:
+- bugfix: set correct fullscreen resolution for non-16:9 (2023/09/09 MS)
+- fixed switched shrink/expand extras in editor (2023/09/05 MS)
+- don't overwrite saved game when testing levels (2023/09/05 MS)
+- properly fill new window with black (2023/09/05 MS)
+- show viewport size if used on non-16:9 monitors (2023/09/05 MS)
+
+1.1.3:
+- fixed broken hiscores file check for disabled installation (2023/04/29 MS)
+- updated config.guess (2023/04/29 MS)
+- gettext argument set to external since now required (2023/04/29 MS)
+
+1.1.2:
+- mini game "Outbreak" now ends on appearance of 10th brick (2023/03/18 MS)
+- show "Game Over" instead of congrats at end of mini game set (2023/02/18 MS)
+- fixed memory violation in shine effect (2023/02/18 MS)
+- use proper display settings for multiple monitors (2023/02/17 MS)
+- properly link to libintl (2023/02/17 Dmitry Marakasov)
+- properly install icons (2023/02/03 MS)
+- use config directory as fallback for highscores (2023/01/28 MS)
+
+1.1.1:
+- added keyboard support for menu (2022/12/26 MS)
+- added test functionality to editor (2022/12/24 MS)
+
+1.1:
+- added editor (2022/11/05 MS)
+- added swedish translation (2022/07/22 Sanchez)
+
+1.0.10:
+- config option for setting directory for user-specific data (2022/04/23 MS)
+- added french translation (2022/04/23 Pierre Faucillon)
+
+1.0.9:
+- fixed texture problem with old hardware (2022/03/02 MS)
+
+1.0.8:
+- fixed instant set selection in custom set dialog (2021/08/08 MS) 
+- added paddle acceleration for keys/gamepad (2021/08/08 MS)
+- added missing cross compiling stuff (2021/04/07 MS)
+
+1.0.7:
+- simplified cross compiling (2021/04/06 MS)
+- added difficulty "very easy" (2021/04/04 MS)
+- added gamepad support (2021/04/04 MS)
+- added option to restart level (2021/04/03 MS)
+- adjusted Kids difficulty (2021/04/03 MS)
+
+1.0.6:
+- fixed crash with 4k resolution (2019/12/27 MS)
+
+1.0.5:
+- added full german translation (2019/09/02 Wuzzy)
+- automatic ball turbo disabled by default (2019/05/13 MS)
+- fixed bug in input handling (2019/05/13 MS)
+- fixed a typo (2019/05/12 Enrico Bella)
+
+1.0.4:
+- fixed crash in fps computation (2019/03/08 MS)
+- added stereo sound (2019/03/07 MS)
+- added shine effect (2019/03/07 MS)
+- fixed computing geometry to work with non 16:9 screen ratio (2019/03/06 MS)
+- fixed crash for non 16:9 resolutions (2019/03/06 MS)
+- wait for p only in pause to allow switching away from window (2019/03/05 MS)
+- properly mute sound on startup if disabled (2019/02/05 MS)
+
+1.0.3:
+- re-enabled Freakout superset 
+- optimized menu rendering by using labels
+- properly wait for release of keys and buttons
+- re-enabled and improved mini games
+
+1.0.2:
+- added option to destroy single bricks as workaround for bad levels
+- added option for absolute mouse input
+- fixed bug in level set preview
+
+1.0.1:
+- smoother auto speed transition for balls
+- sort file names directly when reading directory
+- optimize code by default (--enable-debug required for debug info)
+- optimized game loop delay
+- added option for fps limit
+- draw menu tooltip only once and with delay
+- allow z or y to confirm
+
+1.0:
+- "new" level set LBreakoutHD
+- level set select dialog
+- resume option
+- continue option
+- tooltips for menu
+- tons of fixes and enhancements 
+
+0.8:
+- added sounds, effects, menu
+- fixed a lot of bugs
+
+0.5:
+- initial release

@@ -1,0 +1,998 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Michael Speck
+# This file is distributed under the same license as the lbreakouthd package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lbreakouthd 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-28 10:18+0200\n"
+"PO-Revision-Date: 2019-06-26 10:11+0200\n"
+"Last-Translator: Wuzzy <almikes@aol.com>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: libgame/game.c:63 libgame/levels.c:123
+#, c-format
+msgid "Jumping Jack"
+msgstr "Hampelmann"
+
+#: libgame/game.c:64 libgame/game.c:68 libgame/game.c:72 libgame/game.c:76
+#: libgame/game.c:80 libgame/game.c:84
+#, c-format
+msgid "Bonus Level"
+msgstr "Bonuslevel"
+
+#: libgame/game.c:67 libgame/levels.c:126
+#, c-format
+msgid "Outbreak"
+msgstr "Ausbruch"
+
+#: libgame/game.c:71 libgame/levels.c:129
+#, c-format
+msgid "Barrier"
+msgstr "Sperre"
+
+#: libgame/game.c:75 libgame/levels.c:132
+#, c-format
+msgid "Sitting Ducks"
+msgstr "Entenjagd"
+
+#: libgame/game.c:79 libgame/levels.c:135
+#, c-format
+msgid "Hunter"
+msgstr "Jäger"
+
+#: libgame/game.c:83
+#, c-format
+msgid "Defender"
+msgstr "Verteidiger"
+
+#: libgame/game.c:87
+#, c-format
+msgid "Unknown Level Type"
+msgstr "Unbekannter Leveltyp"
+
+#: libgame/levels.h:23
+msgid "<CREATE SET>"
+msgstr "<SATZ ERSTELLEN>"
+
+#: libgame/levels.h:24
+msgid "!FREAKOUT!"
+msgstr "!FREAKOUT!"
+
+#: libgame/levels.c:138
+msgid "Invaders"
+msgstr "Invasoren"
+
+#: libgame/levels.c:141
+msgid "unknown"
+msgstr "unbekannt"
+
+#: libgame/levels.c:157 src/selectdlg.cpp:128
+msgid "!JUMPING_JACK!"
+msgstr "!HAMPELMANN!"
+
+#: libgame/levels.c:159 src/selectdlg.cpp:129
+msgid "!OUTBREAK!"
+msgstr "!AUSBRUCH!"
+
+#: libgame/levels.c:161 src/selectdlg.cpp:130
+msgid "!BARRIER!"
+msgstr "!SPERRE!"
+
+#: libgame/levels.c:163 src/selectdlg.cpp:131
+msgid "!SITTING_DUCKS!"
+msgstr "!ENTENJAGD!"
+
+#: libgame/levels.c:165 src/selectdlg.cpp:132
+msgid "!HUNTER!"
+msgstr "!JÄGER!"
+
+#: libgame/levels.c:167 src/selectdlg.cpp:133
+msgid "!INVADERS!"
+msgstr "!EINDRINGLINGE!"
+
+#: src/view.cpp:291
+msgid "Pause"
+msgstr "Pause"
+
+#: src/view.cpp:300
+msgid "Restart level? y/n"
+msgstr "Ebene neu starten? j/n"
+
+#: src/view.cpp:301
+msgid "(Costs a life.)"
+msgstr "(Kostet ein Leben.)"
+
+#: src/view.cpp:317
+msgid "Quit Game? y/n"
+msgstr "Spiel verlassen? j/n"
+
+#: src/view.cpp:318
+msgid "(No hiscore entry yet, game can be resumed later.)"
+msgstr "(Noch kein Bestenlisteneintrag, Spiel kann später fortgesetzt werden.)"
+
+#: src/view.cpp:426
+msgid "Buy Continue? y/n"
+msgstr "Fortsetzen kaufen? j/n"
+
+#: src/view.cpp:427
+msgid "(Costs ALL of your score.)"
+msgstr "(Kostet 100% der Punkte.)"
+
+#: src/view.cpp:722
+msgid "(Level "
+msgstr "(Level "
+
+#: src/view.cpp:735
+msgid "Active Extras"
+msgstr "Aktive Extras"
+
+#: src/view.cpp:753
+msgid "Hiscores"
+msgstr "Bestenliste"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Kids"
+msgstr "Kinder"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Very Easy"
+msgstr "Leicht"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Easy"
+msgstr "Leicht"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Medium"
+msgstr "Mittel"
+
+#: src/view.cpp:1145 src/view.cpp:1756
+msgid "Hard"
+msgstr "Schwer"
+
+#: src/view.cpp:1146
+msgid "No Limit"
+msgstr "Kein Limit"
+
+#: src/view.cpp:1146
+msgid "200 FPS"
+msgstr "200 FPS"
+
+#: src/view.cpp:1146
+msgid "100 FPS"
+msgstr "100 FPS"
+
+#: src/view.cpp:1169
+msgid "Start Original Levels"
+msgstr "Originalebenen starten"
+
+#: src/view.cpp:1170
+msgid "Start level set 'LBreakoutHD'."
+msgstr "Ebenensatz „LBreakoutHD“ starten."
+
+#: src/view.cpp:1172
+msgid "Start Custom Levels"
+msgstr "Benutzerebenen starten"
+
+#: src/view.cpp:1173
+msgid "Select and run a custom level set."
+msgstr "Benutzerdefinierten Ebenensatz auswählen und starten."
+
+#: src/view.cpp:1176
+msgid "Difficulty"
+msgstr "Schwierigkeit"
+
+#: src/view.cpp:1177
+msgid ""
+"This affects lives, paddle size and ball speed. For Kids and Easy score is "
+"reduced, for Hard a bonus is given."
+msgstr ""
+"Dies beeinflusst Leben, Schlägergröße und Balltempo. Bei Kinder und Leicht "
+"wird die Punktzahl reduziert, bei Schwer gibt es einen Bonus."
+
+#: src/view.cpp:1180
+msgid "Players"
+msgstr "Spieler"
+
+#: src/view.cpp:1181
+msgid "Number and names of players. Players alternate whenever a life is lost."
+msgstr ""
+"Anzahl und Namen der Spieler. Spieler wechseln sich ab, wenn ein Leben "
+"verloren geht."
+
+#: src/view.cpp:1183
+msgid "1st"
+msgstr "Nr. 1"
+
+#: src/view.cpp:1184
+msgid "2nd"
+msgstr "Nr. 2"
+
+#: src/view.cpp:1185
+msgid "3rd"
+msgstr "Nr. 3"
+
+#: src/view.cpp:1186
+msgid "4th"
+msgstr "Nr. 4"
+
+#: src/view.cpp:1190
+msgid "Left"
+msgstr "Links"
+
+#: src/view.cpp:1191
+msgid "Right"
+msgstr "Rechts"
+
+#: src/view.cpp:1192
+msgid "Left Fire"
+msgstr "Feuer links"
+
+#: src/view.cpp:1193
+msgid ""
+"Fire balls to the left. Ignored if 'Ball Fire Angle' in 'Advanced Settings' "
+"is 'Random'."
+msgstr ""
+"Bälle nach links feuern. Wird ignoriert, wenn „Ballabschusswinkel“ in "
+"„Erweiterte Einstellungen“ auf „Zufällig“ gesetzt wurde."
+
+#: src/view.cpp:1195
+msgid "Right Fire"
+msgstr "Feuer rechts"
+
+#: src/view.cpp:1196
+msgid ""
+"Fire balls to the right. Ignored if 'Ball Fire Angle' in 'Advanced Settings' "
+"is 'Random'."
+msgstr ""
+"Bälle nach rechts feuern. Wird ignoriert, wenn „Ballstartwinkel“ in "
+"„Erweiterte Einstellungen“ auf „Zufällig“ gesetzt wurde."
+
+#: src/view.cpp:1198
+msgid "Paddle Turbo"
+msgstr "Schlägerturbo"
+
+#: src/view.cpp:1199
+msgid "Speed up paddle movement."
+msgstr "Schlägertempo erhöhen."
+
+#: src/view.cpp:1201 src/view.cpp:1272
+msgid "Ball Turbo"
+msgstr "Ballturbo"
+
+#: src/view.cpp:1202
+msgid "Speed up balls to limit 'Acc. Ball Speed' in 'Advanced Settings'."
+msgstr ""
+"Balltempo bis zum Limit „Balltempo beschleunigen“ in „Erweiterte "
+"Einstellungen“ beschleunigen"
+
+#: src/view.cpp:1204
+msgid "Idle Return"
+msgstr "Rückruf"
+
+#: src/view.cpp:1205
+msgid ""
+"Return all idle balls (no effective brick hits for some time) to the paddle."
+msgstr ""
+"Alle Bälle im Leerlauf (keine wirksamen Treffer für einige Zeit) zum "
+"Schläger zurückbringen."
+
+#: src/view.cpp:1208
+msgid "Key Speed"
+msgstr "Tastengeschwindigkeit"
+
+#: src/view.cpp:1209
+msgid "The higher the value the faster the paddle moves by keys."
+msgstr ""
+"Je höher der Wert ist, desto schneller wird der Schläger von den Tasten "
+"bewegt."
+
+#: src/view.cpp:1211
+msgid "Mouse Input"
+msgstr "Mauseingabe"
+
+#: src/view.cpp:1212
+msgid ""
+"'Absolute' uses absolute mouse position. No fine tuning possible and you "
+"might experience delay (if moving too far to the right you'll need to come "
+"back to the paddle position first) but it will be more accurate for slow "
+"movements.\n"
+"'Relative' allows modifying paddle speed but might get inaccurate for slow "
+"movements with high resolution and high frame rates."
+msgstr ""
+"„Absolut“ benutzt die absolute Mausposition. Es ist keine Feinjustierung "
+"möglich und es könnte zu Verzögerungen kommen (wenn der Mauszeiger zu weit "
+"rechts ist, muss er zuerst zurück zur Schlägerposition bewegt werden) aber "
+"er wird für langsame Bewegungen am genauesten sein.\n"
+"Mit „Relativ” kann die Schlägergeschwindigkeit geändert werden, aber es kann "
+"für langsame Bewegungen unpräzise bei hohen Auflösungen und hohen Bildraten "
+"sein."
+
+#: src/view.cpp:1213
+msgid "Absolute"
+msgstr "Absolut"
+
+#: src/view.cpp:1213
+msgid "Relative"
+msgstr "Relativ"
+
+#: src/view.cpp:1214
+msgid "Motion Modifier"
+msgstr "Bewegungsfaktor"
+
+#: src/view.cpp:1215
+msgid "Adjust mouse sensitivity. (relative motion only)"
+msgstr "Mausempfindlichkeit anpassen (nur für relative Bewegung)."
+
+#: src/view.cpp:1217
+msgid "Invert Motion"
+msgstr "Bewegung invertieren"
+
+#: src/view.cpp:1218
+msgid "Invert mouse motion if needed. (relative motion only)"
+msgstr "Mausbewegung invertieren, falls nötig (nur für relative Bewegung)"
+
+#: src/view.cpp:1223
+msgid "Theme"
+msgstr "Thema"
+
+#: src/view.cpp:1224
+msgid "Select theme. (not applied yet)"
+msgstr "Thema wählen (noch nicht angewendet)."
+
+#: src/view.cpp:1226
+msgid "Mode"
+msgstr "Modus"
+
+#: src/view.cpp:1227
+msgid "Select mode. (not applied yet)"
+msgstr "Modus auswählen (noch nicht angewendet)."
+
+#: src/view.cpp:1229
+msgid "Antialiasing"
+msgstr "Anti-Aliasing"
+
+#: src/view.cpp:1230
+msgid ""
+"'Auto' means no antialiasing for old LBreakout2 low resolution themes as "
+"this might cause (slight) graphical errors. 'Always' means to use it even "
+"for low resolution themes."
+msgstr ""
+"„Auto“ bedeutet, dass es kein Anti-Aliasing für alte niedrigauflösende "
+"LBreakout2-Themen gibt, da es zu (leichten) Grafikfehlern kommen könnte. "
+"„Immer“ bedeutet, dass es auch für niedrigauflösende Themen benutzt wird."
+
+#: src/view.cpp:1231 src/view.cpp:1274 src/view.cpp:1277
+msgid "Auto"
+msgstr "Auto"
+
+#: src/view.cpp:1231
+msgid "Always"
+msgstr "Immer"
+
+#: src/view.cpp:1232
+msgid "Apply Theme&Mode"
+msgstr "Thema u. Modus anwenden"
+
+#: src/view.cpp:1233
+msgid "Apply the above settings."
+msgstr "Die obigen Einstellungen anwenden."
+
+#: src/view.cpp:1235
+msgid "Frame Limit"
+msgstr "Bildrate"
+
+#: src/view.cpp:1236
+msgid ""
+"Maximum number of frames per second.\n"
+"Be careful: The higher the limit the more insensitive your mouse might "
+"become to slow movements (because relative motion is used and program cycles "
+"are shorter).\n"
+"200 FPS should be a good value."
+msgstr ""
+"Maximale Anzahl von Frames pro Sekunde.\n"
+"Vorsicht: Je höher das Limit, desto unsensibler kann die Maus bei langsamen "
+"Bewegungen werden (weil die Programmzyklen kürzer sind).\n"
+"200 FPS sollte ein guter Wert sein."
+
+#: src/view.cpp:1241
+msgid "Sound"
+msgstr "Ton"
+
+#: src/view.cpp:1242
+msgid "Volume"
+msgstr "Lautstärke"
+
+#: src/view.cpp:1243
+msgid "Speech"
+msgstr "Sprache"
+
+#: src/view.cpp:1245
+msgid "Buffer Size"
+msgstr "Puffergröße"
+
+#: src/view.cpp:1246
+msgid ""
+"Reduce buffer size if you experience sound delays. Might have more CPU "
+"impact though. (not applied yet)"
+msgstr ""
+"Puffergröße reduzieren, falls du Verzögerungen im Ton bemerkst. Könnte "
+"jedoch die CPU-Leistung beeinträchtigen (im Moment wirkungslos)."
+
+#: src/view.cpp:1248
+msgid "Channels"
+msgstr "Kanäle"
+
+#: src/view.cpp:1249
+msgid ""
+"More channels gives more sound variety, less channels less (not applied yet)"
+msgstr ""
+"Mehr Kanäle führen zu einer größeren Vielfalt in den Toneffekten, weniger "
+"Kanäle zu einer geringeren Vielfalt (im Moment wirkungslos)"
+
+#: src/view.cpp:1251
+msgid "Apply Size&Channels"
+msgstr "Größe u. Kanäle anwenden"
+
+#: src/view.cpp:1252
+msgid "Apply above settings"
+msgstr "Obige Einstellungen anwenden"
+
+#: src/view.cpp:1256
+msgid "Controls"
+msgstr "Steuerung"
+
+#: src/view.cpp:1257
+msgid "Graphics"
+msgstr "Grafik"
+
+#: src/view.cpp:1258
+msgid "Audio"
+msgstr "Audio"
+
+#: src/view.cpp:1259
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: src/view.cpp:1263
+msgid "Paddle Style"
+msgstr "Schlägerstil"
+
+#: src/view.cpp:1264
+msgid ""
+"Use 'Convex' for casual play: The paddle is treated as convex allowing easy "
+"aiming.\n"
+"Use 'Normal' for regular behaviour. You will have to aim by using the side "
+"hemispheres or giving balls momentum by moving at the right moment when they "
+"hit the flat part. Only for experienced players."
+msgstr ""
+"„Konvex“ benutzen für Anfänger: Der Schläger wird als konvex betrachtet, was "
+"das Zielen vereinfacht.\n"
+"„Normal“ benutzen für reguläres Verhalten. Du musst zielen, indem du die "
+"Ränder benutzt oder die Ballrichtung beeinflusst, indem du den Schläger im "
+"richtigen Moment bewegst, wenn die Bälle den flachen Teil treffen. Nur für "
+"erfahrene Spieler."
+
+#: src/view.cpp:1265
+msgid "Normal"
+msgstr "Normal"
+
+#: src/view.cpp:1265
+msgid "Convex"
+msgstr "Konvex"
+
+#: src/view.cpp:1266
+msgid "Ball Layer"
+msgstr "Ballebene"
+
+#: src/view.cpp:1267
+msgid ""
+"'Below Extras' is the normal layer. It might get hard with many extras and "
+"effects though, so change to 'Above Extras' to have balls always on top of "
+"everything (looks weird but helps to keep an eye on them)."
+msgstr ""
+"„Unter Extras“ ist die normale Ebene. Es könnte mit vielen Extras und "
+"Effekten schwierig werden, also ändere es zu „Über Extras“, damit Bälle "
+"immer über alles erscheinen (sieht komisch aus, aber hilft dabei, sie im "
+"Blick zu behalten)."
+
+#: src/view.cpp:1268
+msgid "Below Extras"
+msgstr "Unter Extras"
+
+#: src/view.cpp:1268
+msgid "Above Extras"
+msgstr "Über Extras"
+
+#: src/view.cpp:1269
+msgid "Ball Fire Angle"
+msgstr "Ballabschusswinkel"
+
+#: src/view.cpp:1270
+msgid ""
+"Either 50 degrees to the left/right or random no matter what fire key has "
+"been pressed."
+msgstr ""
+"Entweder 50 Grad nach links/rechts oder zufällig, egal, welche Abschusstaste "
+"gedrückt wurde."
+
+#: src/view.cpp:1271 src/view.cpp:1864
+msgid "Random"
+msgstr "Zufällig"
+
+#: src/view.cpp:1273
+msgid ""
+"'Auto' will automatically speed up your balls (the farther away from the "
+"paddle the more).\n"
+"'Manually' puts them to maximum speed while key is pressed (default key is "
+"c)."
+msgstr ""
+"„Auto“ wird deine Bälle automatisch beschleunigen (je weiter weg sie vom "
+"Schläger sind, desto stärker).\n"
+"„Manuell“ bringt sie auf die Höchstgeschwindigkeit, während die "
+"entsprechende Taste (Standard: c) gedrückt wird."
+
+#: src/view.cpp:1274 src/view.cpp:1277
+msgid "Manually"
+msgstr "Manuell"
+
+#: src/view.cpp:1275
+msgid "Return Balls"
+msgstr "Bälle zurück"
+
+#: src/view.cpp:1276
+msgid ""
+"'Auto' returns all idle balls (no effective brick hits) after 10 seconds to "
+"the paddle.\n"
+"'Manually' requires you to press a key (default key is Backspace).\n"
+"'Auto' is more convenient but 'Manually' might be required for (badly "
+"designed) levels where balls need to bounce around a lot."
+msgstr ""
+"„Auto“ bringt alle nutzlosen Bälle (keine wirksamen Ziegeltreffer) nach 10 "
+"Sekunden zum Schläger zurück.\n"
+"„Manuell“ erfordert das Drücken einer Taste (Standardtaste ist die "
+"Rücktaste).\n"
+"„Auto“ ist bequemer, aber „Manuell“ könnte für (schlecht gemachte) Levels "
+"nötig sein, in denen Bälle viel herumirren müssen."
+
+#: src/view.cpp:1278
+msgid "Warp Limit"
+msgstr "Sprunglimit"
+
+#: src/view.cpp:1279
+msgid ""
+"If this percentage of bricks is destroyed you can warp to the next level (no "
+"penalties) by pressing 'w'. A small icon at the lower right hand side is "
+"shown when warp is ready."
+msgstr ""
+"Wenn dieser Prozentsatz an Ziegeln zerstört wurde, kannst du zum nächsten "
+"Level (ohne Strafe) mit der Taste „w“ springen. Unten rechts wird ein "
+"kleines Symbol erscheinen, wenn gesprungen werden kann."
+
+#: src/view.cpp:1281
+msgid "Acc. Ball Speed"
+msgstr "Balltempo"
+
+#: src/view.cpp:1282
+msgid "Maximum speed of accelerated balls."
+msgstr "Höchstgeschwindigkeit von beschleunigten Bällen."
+
+#: src/view.cpp:1284
+msgid "Bonus Levels"
+msgstr "Bonusebenen"
+
+#: src/view.cpp:1284
+msgid ""
+"Add bonus levels with a mini game every 4 regular levels. Game over will end "
+"the mini game without loosing a life."
+msgstr ""
+
+#: src/view.cpp:1285
+msgid "BCC Type"
+msgstr "BKP Typ"
+
+#: src/view.cpp:1286
+msgid ""
+"Ball Collision Check: Get ball targets either by trajectory or clipping."
+msgstr ""
+"Ball Kollisionsprüfung: Bestimmt die Ziele der Bälle über Flugbahn oder "
+"Clipping."
+
+#: src/view.cpp:1287
+msgid "Trajectory"
+msgstr "Flugbahn"
+
+#: src/view.cpp:1287
+msgid "Clipping"
+msgstr "Clipping"
+
+#: src/view.cpp:1291
+msgid "Create New Set"
+msgstr "Neuen Ebenensatz anlegen"
+
+#: src/view.cpp:1293
+msgid "Edit Existing Set"
+msgstr "Bestehenden Ebenensatz bearbeiten"
+
+#: src/view.cpp:1294
+msgid "Edit an existing levelset."
+msgstr "Bestehenden Ebenensatz bearbeiten."
+
+#: src/view.cpp:1299
+msgid "New Game"
+msgstr "Neues Spiel"
+
+#: src/view.cpp:1300
+msgid "Resume Game"
+msgstr "Spiel fortsetzen"
+
+#: src/view.cpp:1304
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/view.cpp:1305 src/view.cpp:1823
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/view.cpp:1307
+msgid "Editor"
+msgstr "Editor"
+
+#: src/view.cpp:1309
+msgid "Quit"
+msgstr "Verlassen"
+
+#: src/view.cpp:1751
+msgid "No saved game."
+msgstr "Kein gespeichertes Spiel."
+
+#: src/view.cpp:1768
+msgid " player(s)\n"
+msgstr " Spieler\n"
+
+#: src/view.cpp:1779
+msgid "  (Lvl: "
+msgstr "  (Lvl: "
+
+#: src/view.cpp:1798
+#, fuzzy
+#| msgid ""
+#| "You can control your paddle either with the mouse or keyboard. Destroying "
+#| "bricks will release extras sometimes. Some are good, some are bad and "
+#| "some may be good or bad. Some of the bricks take more than one shot, "
+#| "regenerate over time, explode or grow new bricks (see README for more "
+#| "details). Balls will get faster (until life is lost) and the difficulty "
+#| "setting will influence number of lives, ball speed, paddle size and "
+#| "score.\n"
+#| "\n"
+#| "While playing you can press\n"
+#| "  - ESC to leave the game (you'll have to confirm)\n"
+#| "  - w to warp to next level (if enough bricks were destroyed)\n"
+#| "  - p to pause/unpause the game\n"
+#| "  - d to destroy a brick (workaround for bad level design)\n"
+#| "\n"
+#| "If you leave a game you can resume it later (no hiscores entry yet).\n"
+#| "\n"
+#| "If you loose all lives you can buy a continue (score set to 0, initial "
+#| "number of lives restored). If you don't buy a continue the game is over "
+#| "(hiscores entry is checked) and can no longer be resumed. \n"
+#| "\n"
+#| "Enjoy the game!\n"
+#| "          Michael Speck"
+msgid ""
+"You can control your paddle either with the mouse or keyboard. Destroying "
+"bricks will release extras sometimes. Some are good, some are bad and some "
+"may be good or bad. Some of the bricks take more than one shot, regenerate "
+"over time, explode or grow new bricks (see README for more details). Balls "
+"will get faster (until life is lost) and the difficulty setting will "
+"influence number of lives, ball speed, paddle size and score.\n"
+"\n"
+"While playing you can press\n"
+"  - ESC to leave the game (you'll have to confirm)\n"
+"  - w to warp to next level (if enough bricks were destroyed)\n"
+"  - p to pause/unpause the game\n"
+"  - d to destroy a brick (workaround for bad level design)\n"
+"\n"
+"If you leave a game, you can resume it later (no hiscores entry yet).\n"
+"\n"
+"If you lose all lives, you can buy a continue (score set to 0, initial "
+"number of lives restored). If you don't buy a continue, the game is over "
+"(hiscores entry is checked) and can no longer be resumed. \n"
+"\n"
+"Enjoy the game!\n"
+"          Michael Speck"
+msgstr ""
+"Der Schläger lässt sich mit Maus oder Tastatur kontrollieren. Zerstörte "
+"Steine werden manchmal Extras freigeben. Manche sind gut, manche schlecht "
+"und manche gut oder schlecht. Einige der Steine brauchen mehr als einen "
+"Schuss, regenerieren über die Zeit, explodieren oder erzeugen neue Steine "
+"(siehe README für mehr Details). Bälle werden mit der Zeit schneller und der "
+"Schwierigkeitsgrad beeinflußt die Anzahl an Leben, Ballgeschwindigkeit, "
+"Schlägergröße und Punktezahl.\n"
+"\n"
+"Es gibt folgende Sondertasten im Spiel\n"
+"  - ESC  verlässt das Spiel (muss bestätigt werden)\n"
+"  - w    springt in die nächste Ebene (falls genug Steine zerstört wurden)\n"
+"  - p    pausiert das Spiel\n"
+"  - d    erlaubt Zerstörung einzelner Steine (für schlechtes Leveldesign)\n"
+"\n"
+"Falls du ein Spiel beendest, kannst du es später wieder aufnehmen. Es wird "
+"noch kein Eintrag in die Bestenliste erstellt. Wenn du alle Leben verlierst, "
+"kannst du ein Continue kaufen (Punktzahl wird auf 0 gesetzt, die anfängliche "
+"Anzahl an Leben wird wiederhergestellt). Falls du kein Continue kaufst, ist "
+"das Spiel vorbei (Bestenliste wird geprüft) und kann nicht mehr aufgenommen "
+"werden.\n"
+"\n"
+"Viel Spaß!\n"
+"          Michael Speck"
+
+#: src/view.cpp:1831
+msgid "Extra Score"
+msgstr "Bonuspunkte"
+
+#: src/view.cpp:1832
+msgid "Gold Shower"
+msgstr "Goldregen"
+
+#: src/view.cpp:1834
+msgid "Extra Life"
+msgstr "Extraleben"
+
+#: src/view.cpp:1835
+msgid "Extra Ball"
+msgstr "Extraball"
+
+#: src/view.cpp:1837
+msgid "Expand Paddle"
+msgstr "Schläger vergrößern"
+
+#: src/view.cpp:1838
+msgid "Shrink Paddle"
+msgstr "Schläger verkleinern"
+
+#: src/view.cpp:1840
+msgid "Sticky Paddle"
+msgstr "Klebeschläger"
+
+#: src/view.cpp:1841
+msgid "Plasma Weapon"
+msgstr "Plasmawaffe"
+
+#: src/view.cpp:1843
+msgid "Slow Balls"
+msgstr "Langsame Bälle"
+
+#: src/view.cpp:1844
+msgid "Fast Balls"
+msgstr "Schnelle Bälle"
+
+#: src/view.cpp:1846
+msgid "Energy Balls"
+msgstr "Energiebälle"
+
+#: src/view.cpp:1847
+msgid "Explosive Balls"
+msgstr "Explosivbälle"
+
+#: src/view.cpp:1849
+msgid "Extra Floor"
+msgstr "Extraboden"
+
+#: src/view.cpp:1850
+msgid "Joker (collect goodies)"
+msgstr "Joker (Boni aufsammeln)"
+
+#: src/view.cpp:1852
+msgid "Bonus Magnet"
+msgstr "Bonusmagnet"
+
+#: src/view.cpp:1853
+msgid "Malus Magnet"
+msgstr "Malusmagnet"
+
+#: src/view.cpp:1855
+msgid "Chaotic Balls"
+msgstr "Chaosbälle"
+
+#: src/view.cpp:1856
+msgid "Weak Balls"
+msgstr "Schwache Bälle"
+
+#: src/view.cpp:1858
+msgid "Frozen Paddle"
+msgstr "Gefrorener Schläger"
+
+#: src/view.cpp:1859
+msgid "Ghost Paddle"
+msgstr "Geisterschläger"
+
+#: src/view.cpp:1861
+msgid "Extra Time"
+msgstr "Extrazeit"
+
+#: src/view.cpp:1862
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: src/view.cpp:1865
+msgid "Darkness"
+msgstr "Dunkelheit"
+
+#: src/view.cpp:1867
+msgid "Indestructible"
+msgstr "Unzerstörbar"
+
+#: src/view.cpp:1868
+msgid "Regular Wall"
+msgstr "Reguläre Mauer"
+
+#: src/view.cpp:1870
+msgid "Chaotic Wall"
+msgstr "Chaotische Mauer"
+
+#: src/view.cpp:1871
+msgid "Regular Brick"
+msgstr "Regulärer Ziegel"
+
+#: src/view.cpp:1873
+msgid "Multi-hit Brick"
+msgstr "Mehrtrefferziegel"
+
+#: src/view.cpp:1874
+msgid "Regenerative Brick"
+msgstr "Regenerativer Ziegel"
+
+#: src/view.cpp:1876
+msgid "Explosive Brick"
+msgstr "Explosivziegel"
+
+#: src/view.cpp:1877
+msgid "Growing Brick"
+msgstr "Wachsender Ziegel"
+
+#: src/view.cpp:1897
+msgid "Plane of Inner Stability"
+msgstr "Ebene der inneren Stabilität"
+
+#: src/view.cpp:1902
+#, fuzzy, no-c-format
+msgid "Left-click on any brick to destroy it (costs 10% score)."
+msgstr ""
+"Linksklick auf einen beliebigen Ziegel, um ihn zu zerstören (kostet 10% der "
+"Punkte)."
+
+#: src/view.cpp:1905
+msgid "Press any key to cancel selection."
+msgstr "Beliebige Taste drücken, um Auswahl abzubrechen."
+
+#: src/clientgame.cpp:107
+msgid "Testplayer"
+msgstr ""
+
+#: src/clientgame.cpp:284 src/clientgame.cpp:293
+#, c-format
+msgid "Game over, %s!"
+msgstr "Spiel vorbei, %s!"
+
+#: src/clientgame.cpp:286
+#, c-format
+msgid "Congratulations, %s, you cleared all levels!"
+msgstr "Glückwunsch, %s, du hast alle Level gesäubert!"
+
+#: src/clientgame.cpp:387
+#, c-format
+msgid "Level: %d, Size: %d/12"
+msgstr "Level: %d, Größe: %d/12"
+
+#: src/clientgame.cpp:391
+#, fuzzy, c-format
+#| msgid "Total Hits: %d, Current Price: %d"
+msgid "Total Hits: %d, Current Prize: %d"
+msgstr "Gesamttreffer: %d, aktuelle Belohnung: %d"
+
+#: src/clientgame.cpp:395
+#, fuzzy, c-format
+#| msgid "Wave: %d, Infections: %d/%d, Active: %d/%d"
+msgid "Wave: %d, Invaders: %d/%d (Active: %d)"
+msgstr "Welle: %d, Infektionen: %d/%d, Aktiv: %d/%d"
+
+#: src/clientgame.cpp:401
+#, c-format
+msgid "Wave: %d, Infections: %d/%d, Active: %d/%d"
+msgstr "Welle: %d, Infektionen: %d/%d, Aktiv: %d/%d"
+
+#: src/clientgame.cpp:407 src/clientgame.cpp:411
+#, fuzzy, c-format
+#| msgid "Hits: %d, Current Price: %d, Time: %d secs"
+msgid "Hits: %d, Current Prize: %d, Time: %d secs"
+msgstr "Treffer %d, aktuelle Belohnung: %d, Zeit: %d s"
+
+#: src/selectdlg.cpp:55
+msgid "Superset with ALL levels"
+msgstr "Superset mit ALLEN Ebenen"
+
+#: src/selectdlg.cpp:57
+msgid "Mini Game"
+msgstr "Minispiel"
+
+#: src/selectdlg.cpp:193
+msgid "Select Levelset (press ESC to exit)"
+msgstr "Wähle Ebenensatz (ESC drücken zum Verlassen)"
+
+#: src/selectdlg.cpp:202
+msgid "<Previous Page>"
+msgstr "<Letze Seite>"
+
+#: src/selectdlg.cpp:217
+msgid "<Next Page>"
+msgstr "<Nächste Seite>"
+
+#: src/selectdlg.cpp:223
+msgid " by "
+msgstr " von "
+
+#: src/selectdlg.cpp:227
+msgid " levels)"
+msgstr " Ebenen) "
+
+#: src/sdl.h:46
+msgid "Fullscreen"
+msgstr "Vollbild"
+
+#: src/sdl.h:47
+msgid "853x480 Window"
+msgstr "853x480 Fenster"
+
+#: src/sdl.h:49
+msgid "1280x720 Window"
+msgstr "1280x720 Fenster"
+
+#: src/sdl.h:51
+msgid "1366x768 Window"
+msgstr "1366x768 Fenster"
+
+#: src/sdl.h:53
+msgid "1920x1080 Window"
+msgstr "1920x1080 Fenster"
+
+#: src/sdl.cpp:827
+msgid "y"
+msgstr "j"
+
+#: src/sdl.cpp:830
+msgid "n"
+msgstr "n"
+
+#: src/menu.h:172
+msgid "Back"
+msgstr "Zurück"
+
+#: src/menu.h:288
+msgid "Off"
+msgstr "Aus"
+
+#: src/menu.h:288
+msgid "On"
+msgstr "An"
+
+#: src/menu.h:336
+msgid "Enter Name"
+msgstr "Name eingeben"
+
+#, c-format
+#~ msgid "Wave: %d, Invaders: %d/%d"
+#~ msgstr "Welle: %d, Invasoren %d/%d"
+
+#~ msgid "On Click"
+#~ msgstr "Mit Klick"
+
+#~ msgid "Options"
+#~ msgstr "Optionen"

@@ -1,0 +1,11 @@
+# List of source files which contain translatable strings.
+libgame/game.c
+libgame/levels.h
+libgame/levels.c
+src/view.cpp
+src/clientgame.cpp
+src/selectdlg.cpp
+src/sdl.h
+src/sdl.cpp
+src/menu.h
+
