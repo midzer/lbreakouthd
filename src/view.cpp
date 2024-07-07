@@ -158,7 +158,7 @@ void View::init(string t, uint r)
 	/* (re)create main window */
 	if (mw)
 		delete mw;
-	mw = new MainWindow("LBreakoutHD", ww, wh, (r==0) );
+	mw = new MainWindow("LBreakoutHD", ww, wh, 0);
 
 	/* load theme (scaled if necessary) */
 	theme.load(t, sw, sh, brickScreenWidth, brickScreenHeight, config.antialiasing);

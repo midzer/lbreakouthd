@@ -801,7 +801,7 @@ int waitForConfirmation()
 	sshot.createFromScreen();
 	SDL_RenderPresent(mrc);
 
-	SDL_StartTextInput();
+	//SDL_StartTextInput();
 	while (!done) {
 		if (SDL_PollEvent(&event)) {
 			switch (event.type) {
@@ -810,37 +810,42 @@ int waitForConfirmation()
 				ret = -1;
 				break;
 			case SDL_KEYDOWN:
-				switch (event.key.keysym.scancode) {
-				case SDL_SCANCODE_ESCAPE: /* ESC = cancel */
+				switch (event.key.keysym.sym) {
+				case SDLK_ESCAPE: /* ESC = cancel */
 					done = true;
 					esc_pressed = true;
 					break;
-				case SDL_SCANCODE_RETURN: /* Return = confirm */
+				case SDLK_RETURN: /* Return = confirm */
+				case SDLK_y:
 					ret = 1;
+					done = true;
+					break;
+				case SDLK_n:
+					ret = 0;
 					done = true;
 					break;
 				default: break;
 				}
 				break;
-			case SDL_TEXTINPUT:
+			//case SDL_TEXTINPUT:
 				/* check UTF-8 text input against single character strings */
-				if (string(event.text.text) == string(_("y"))) {
+			/*	if (string(event.text.text) == string(_("y"))) {
 					done = true;
 					ret = 1;
 				} else if (string(event.text.text) == string(_("n"))) {
 					done = true;
 					ret = 0;
 				}
-				break;
+				break;*/
 			}
 		}
 
-		SDL_Delay(20);
+		//SDL_Delay(20);
 		sshot.copy();
 		SDL_RenderPresent(mrc);
 		SDL_FlushEvent(SDL_MOUSEMOTION);
 	}
-	SDL_StopTextInput();
+	//SDL_StopTextInput();
 
 	/* prevent ESC loop */
 	if (esc_pressed) {

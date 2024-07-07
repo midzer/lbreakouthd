@@ -25,6 +25,9 @@ using namespace std;
   #include <stdint.h>
   typedef uint32_t uint;
 #endif
+#ifdef __EMSCRIPTEN__
+  typedef unsigned int uint;
+#endif
 #include <list>
 #include <string>
 #include <vector>

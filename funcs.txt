@@ -1,0 +1,14 @@
+[
+    "main",
+    "View::dim()",
+    "View::waitForInputRelease()",
+    "View::run()",
+    "View::showInfo(std::__2::vector<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>, std::__2::allocator<std::__2::basic_string<char, std::__2::char_traits<char>, std::__2::allocator<char>>>> const&, int)",
+    "waitForConfirmation()",
+    "View::waitForKey(int)",
+    "SDL_Delay",
+    "SDL_RenderPresent",
+    "GLES2_RenderPresent",
+    "Emscripten_GLES_SwapWindow",
+    "dynCall_v"
+]

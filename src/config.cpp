@@ -68,7 +68,7 @@ Config::Config()
 	channels = 16;
 	/* graphics */
 	anim = 2;
-	mode = 0;
+	mode = 1;
 	fade = 1;
 	bonus_info = 1;
 	fps = 1;

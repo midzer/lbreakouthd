@@ -10,6 +10,9 @@ AM_INIT_AUTOMAKE
 AC_USE_SYSTEM_EXTENSIONS
 AM_GNU_GETTEXT([external])
 
+: ${CFLAGS="-flto -O3 -fno-exceptions"}
+: ${CXXFLAGS="-flto -O3 -fno-exceptions"}
+
 # Checks for programs.
 AC_PROG_CXX
 AC_PROG_CC
@@ -18,9 +21,9 @@ AC_PROG_RANLIB
 # Checks for libraries.
 AC_CHECK_LIB(m, main,, AC_MSG_ERROR(lib math is needed))
 AC_CHECK_LIB(SDL2, main,, AC_MSG_ERROR(lib SDL2 is needed))
-AC_CHECK_LIB(SDL2_ttf, main,, AC_MSG_ERROR(lib SDL2 ttf is needed))
-AC_CHECK_LIB(SDL2_image, main,, AC_MSG_ERROR(lib SDL2 image is needed))
-AC_CHECK_LIB(SDL2_mixer, main,, AC_MSG_ERROR(lib SDL2 mixer is needed))
+#AC_CHECK_LIB(SDL2_ttf, main,, AC_MSG_ERROR(lib SDL2 ttf is needed))
+#AC_CHECK_LIB(SDL2_image, main,, AC_MSG_ERROR(lib SDL2 image is needed))
+#AC_CHECK_LIB(SDL2_mixer, main,, AC_MSG_ERROR(lib SDL2 mixer is needed))
 
 # Checks for header files.
 AC_CHECK_HEADERS([stdlib.h string.h])
@@ -37,13 +40,13 @@ AC_FUNC_STRTOD
 AC_CHECK_FUNCS([memset strchr strdup strrchr])
 
 dnl allow changing config dir
-configdir=.lbreakouthd
+configdir=.
 AC_ARG_WITH( configdir,
 [  --with-configdir=CONFIGDIR       Set directory for config/data files in home directory (default: .lbreakouthd).],
 configdir="$withval",)
 
 # other flags
-datdir=$datadir/$PACKAGE
+datdir="."
 hiscoredir=$localstatedir
 debugflags=""
 AC_ARG_ENABLE( install,
