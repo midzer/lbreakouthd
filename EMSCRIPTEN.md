@@ -3,6 +3,8 @@
 ## Build
 
 ```
+autoreconf
+emconfigure ./configure
 emmake make
 ```
 
