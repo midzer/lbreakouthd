@@ -343,7 +343,9 @@ void Image::scale(int nw, int nh)
 	}
 	SDL_Texture *oldTarget = SDL_GetRenderTarget(mrc);
 	SDL_SetRenderTarget(mrc, newtex);
-	SDL_SetTextureBlendMode(newtex, SDL_BLENDMODE_BLEND);
+	SDL_BlendMode originalBlend;
+	SDL_GetTextureBlendMode(tex, &originalBlend);
+	SDL_SetTextureBlendMode(newtex, originalBlend);
 	SDL_SetRenderDrawColor(mrc,0,0,0,0);
 	SDL_RenderClear(mrc);
 	SDL_RenderCopy(mrc, tex, NULL, NULL);
